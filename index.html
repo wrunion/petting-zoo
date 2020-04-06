@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="animals.js"></script>
+  <title>Petting Zoo</title>
+</head>
+<body>
+  <h1>Welcome to the Petting Zoo!</h1>
+  <h3>Adopt an animal for the afternoon!</h3>
+
+  <div id="entry-form">
+    <label for="userName">Enter Your Name:</label>
+    <h3><input type="text" required placeholder="Your Name"></h3>
+    <button type="submit" id="enter">Enter the zoo!</button>
+  </div>
+
+  <div id="animals" class="hidden-start flex-container">
+    <div class="animal flex-item" id="animal-1">
+      <img src="media/animalPig2.png" alt="A cartoon pig" class="img-fluid">
+      <p>Toby</p>
+    </div>
+    <div class="animal flex-item" id="animal-2">
+      <img src="media/animalsCheetah3.png" alt="A yellow cartoon tiger" class="img img-fluid">
+      <p>Terry</p>
+    </div>
+    <div class="animal flex-item" id="animal-3">
+      <img src="media/animalsRabbit.png" alt="A cartoon drawing of a bear" class="img-fluid">
+      <p>Tina</p>
+    </div>
+    <div class="animal flex-item" id="animal-4">
+      <img src="media/animalsPandaBear.png" alt="A cartoon animal" class="img-fluid">
+      <p>Timmy</p>
+    </div>
+    <div class="animal flex-item" id="animal-5">
+      <img src="media/animalsGiraffe3.png" alt="A cartoon animal" class="img-fluid">
+      <p>Geraldine</p>
+    </div>
+  </div>
+
+</body>
+</html>
